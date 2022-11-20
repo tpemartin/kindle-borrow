@@ -1,3 +1,3 @@
-function checkOut() {
+function checkOut(email, id, kindleDeviceCode) {
   
 }
