@@ -6,7 +6,7 @@ Let `url` represent your app script entry point.
 For the question, you need to make your Google sheets container available for view. Then put down your Google sheets sharable link and you `url` under the issue comment. 
 
 ## 1.1 
-Complete corresponding scripts so that a `url?scenario=login&email=janet@gmail.com` will
+Complete corresponding scripts so that a HTTP request of `url?scenario=login&email=janet@gmail.com` will
 get a returned value of
 ```
  {
@@ -17,7 +17,7 @@ get a returned value of
 ```
 
 ## 1.2 
-Complete corresponding scripts so that a `url?scenario=onHold&email=janet@gmail.com&id=411073007` will
+Complete corresponding scripts so that a HTTP request of `url?scenario=onHold&email=janet@gmail.com&id=411073007` will
 get a returned value of
 ```
 {
