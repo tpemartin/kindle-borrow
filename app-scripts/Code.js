@@ -6,7 +6,7 @@ function doGet(e) {
   var email = params.email
   var scenario = params.scenario
   // login scenario
-  if(scenario='login'){
+  if(scenario==='login'){
     var status = checkUserBorrowOnHold(email)
     var inventory = checkInventory();
 
@@ -15,7 +15,7 @@ function doGet(e) {
   }
 
   // on hold scenario
-  if(scenario='onhold'){
+  if(scenario==='onhold'){
     var expirationDate = userOnHold(email, id)
     emailUserOnHold(email, expirationDate)
   }
